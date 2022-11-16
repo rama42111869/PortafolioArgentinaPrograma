@@ -35,7 +35,11 @@ import { FormacionComponent } from './components/formacion/formacion.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { Minicarrusel2Component } from './components/minicarrusel2/minicarrusel2.component';
-
+import { MdbModalModule } from 'mdb-angular-ui-kit/modal';
+import { Minicarrusel3Component } from './components/minicarrusel3/minicarrusel3.component';
+import { Minicarrusel4Component } from './components/minicarrusel4/minicarrusel4.component';
+import { Minicarrusel5Component } from './components/minicarrusel5/minicarrusel5.component';
+import { Minicarrusel6Component } from './components/minicarrusel6/minicarrusel6.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -59,10 +63,15 @@ import { Minicarrusel2Component } from './components/minicarrusel2/minicarrusel2
     HomeComponent,
     NavbarComponent,
     Minicarrusel2Component,
+    Minicarrusel3Component,
+    Minicarrusel4Component,
+    Minicarrusel5Component,
+    Minicarrusel6Component,
   ],
   imports: [
     NgxPaginationModule,
     MdbCarouselModule,
+    MdbModalModule,
     MdbCollapseModule,
     FormsModule,
     MatSliderModule,
