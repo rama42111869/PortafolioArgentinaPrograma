@@ -3,8 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { MainComponent } from './components/main/main.component';
-import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
@@ -19,7 +17,6 @@ import { MatSliderModule } from '@angular/material/slider';
 import { CarrouselComponent } from './components/carrousel/carrousel.component';
 import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
 import { MinicarruselComponent } from './components/minicarrusel/minicarrusel.component';
-import { MenumainComponent } from './components/menumain/menumain.component';
 import { LineComponent } from './components/line/line.component';
 
 import { WhasappComponent } from './components/whasapp/whasapp.component';
@@ -37,19 +34,19 @@ import { TecnologiasComponent } from './components/tecnologias/tecnologias.compo
 import { FormacionComponent } from './components/formacion/formacion.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { Minicarrusel2Component } from './components/minicarrusel2/minicarrusel2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent,
-    RegisterComponent,
+
     LoginComponent,
     InicioComponent,
     PageNotFoundComponent,
     FooterComponent,
     CarrouselComponent,
     MinicarruselComponent,
-    MenumainComponent,
+
     LineComponent,
 
     WhasappComponent,
@@ -61,6 +58,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     FormacionComponent,
     HomeComponent,
     NavbarComponent,
+    Minicarrusel2Component,
   ],
   imports: [
     NgxPaginationModule,
