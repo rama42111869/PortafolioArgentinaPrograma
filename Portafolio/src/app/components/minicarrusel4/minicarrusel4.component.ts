@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgbCarousel } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-minicarrusel4',
@@ -6,10 +7,31 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./minicarrusel4.component.css']
 })
 export class Minicarrusel4Component implements OnInit {
-
   constructor() { }
 
-  ngOnInit(): void {
+  @ViewChild('ngcarousel', { static: true }) ngCarousel!: NgbCarousel;
+  ngOnInit() {}
+  // Move to specific slide
+  navigateToSlide(item: any) {
+    this.ngCarousel.select(item);
+    console.log(item);
   }
+  // Move to previous slide
+  getToPrev() {
+    this.ngCarousel.prev();
+  }
+  // Move to next slide
+  goToNext() {
+    this.ngCarousel.next();
+  }
+  // Pause slide
+  stopCarousel() {
+    this.ngCarousel.pause();
+  }
+  // Restart carousel
+  restartCarousel() {
+    this.ngCarousel.cycle();
+  }
+
 
 }

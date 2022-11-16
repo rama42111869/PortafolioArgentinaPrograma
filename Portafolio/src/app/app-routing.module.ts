@@ -8,7 +8,7 @@ import { SobremiComponent } from './components/sobremi/sobremi.component';
 import { FormacionComponent } from './components/formacion/formacion.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
-
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/inicio' },
@@ -24,6 +24,7 @@ const routes: Routes = [
   {path: 'formacion',component:FormacionComponent},
   {path: 'experiencia', component: ExperienciaComponent},
   {path: 'tecnologias', component: TecnologiasComponent},
+  {path: 'proyectos', component: ProyectosComponent},
   ///Unisex-components
   {path: '**', component:PageNotFoundComponent}
 ];

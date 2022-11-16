@@ -40,6 +40,7 @@ import { Minicarrusel3Component } from './components/minicarrusel3/minicarrusel3
 import { Minicarrusel4Component } from './components/minicarrusel4/minicarrusel4.component';
 import { Minicarrusel5Component } from './components/minicarrusel5/minicarrusel5.component';
 import { Minicarrusel6Component } from './components/minicarrusel6/minicarrusel6.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -67,6 +68,7 @@ import { Minicarrusel6Component } from './components/minicarrusel6/minicarrusel6
     Minicarrusel4Component,
     Minicarrusel5Component,
     Minicarrusel6Component,
+    ProyectosComponent,
   ],
   imports: [
     NgxPaginationModule,
