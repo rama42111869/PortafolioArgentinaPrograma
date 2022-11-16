@@ -1,10 +1,16 @@
-# Portafolio
+# Webinar Youtube
+Cómo crear un Login con Firebase en Angular paso a paso
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+## Curso completo
+[AQUÍ](https://youtu.be/8VTxuIvMTlc)
+
+# Autenticacion
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
