@@ -2,11 +2,11 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgbCarousel } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-  selector: 'app-minicarrusel6',
-  templateUrl: './minicarrusel6.component.html',
-  styleUrls: ['./minicarrusel6.component.css']
+  selector: 'app-minicarrusel7',
+  templateUrl: './minicarrusel7.component.html',
+  styleUrls: ['./minicarrusel7.component.css']
 })
-export class Minicarrusel6Component implements OnInit {
+export class Minicarrusel7Component implements OnInit {
   constructor() { }
 
   @ViewChild('ngcarousel', { static: true }) ngCarousel!: NgbCarousel;

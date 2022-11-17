@@ -41,6 +41,8 @@ import { Minicarrusel4Component } from './components/minicarrusel4/minicarrusel4
 import { Minicarrusel5Component } from './components/minicarrusel5/minicarrusel5.component';
 import { Minicarrusel6Component } from './components/minicarrusel6/minicarrusel6.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { Minicarrusel7Component } from './components/minicarrusel7/minicarrusel7.component';
+import { Minicarrusel8Component } from './components/minicarrusel8/minicarrusel8.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -69,6 +71,8 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     Minicarrusel5Component,
     Minicarrusel6Component,
     ProyectosComponent,
+    Minicarrusel7Component,
+    Minicarrusel8Component,
   ],
   imports: [
     NgxPaginationModule,
